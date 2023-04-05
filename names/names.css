@@ -1,0 +1,36 @@
+h2 {
+    margin-bottom: 36px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+}
+
+.names span {
+    position: relative;
+}
+
+.names img {
+    position:absolute;
+    right:0;
+    top: 50%;
+    transform: translate(100%, -50%);
+    height:32px;
+}
+
+.removeNameBtn {
+    cursor: pointer;
+}
+#addNameBtn {
+    cursor: pointer;
+    margin:24px;
+}
+
+input {
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, .5)
+}

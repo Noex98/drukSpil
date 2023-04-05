@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(90deg,#ffd7c7,#ffd3ff,#ffffff); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(90deg,#ffd7c7,#ffd3ff,#ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+header {
+  text-align: center;
+  padding: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  margin-bottom: 64px;
+}
+
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-btn {
+  padding:16px;
+  border-radius: 16px;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  width:200px;
+  color: #ffd3ff;
+  font-weight: bold;
+  font-size: 22px;
+}

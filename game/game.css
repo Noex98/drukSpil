@@ -1,0 +1,53 @@
+body {
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    position: absolute;
+    top:40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.3rem;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px;
+    min-width: 200px;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 16px;
+}
+
+button {
+    border:none;
+    background: none;
+    padding:0;
+    margin:0;
+    height:35px;
+    width:35px;
+}
+
+button img {
+    
+    padding:0;
+    margin:auto;
+    height:35px;
+}
+
+.btnContainer {
+    width:100%;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#prevBtn {
+    transform: rotateZ(180deg);
+}
