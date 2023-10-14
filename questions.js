@@ -25,7 +25,7 @@ export const questions = [
         maxPlayers: 10,
     },
     {
-        text: "",
+        text: "Vandfald, &person& starter",
         minPlayers: 0,
         maxPlayers: 10,
     },
