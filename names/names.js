@@ -1,4 +1,4 @@
-import { getNamesFromStorage } from "../utils.js";
+import { getNamesFromStorage } from "../utils/misc.js";
 
 const addNameBtn = document.querySelector("#addNameBtn");
 const personContainer = document.querySelector(".names");

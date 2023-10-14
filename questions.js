@@ -14,24 +14,8 @@ export const questions = [
         minPlayers: 0,
         maxPlayers: 10,
     },
-    
     {
         text: "&person& og &person& slå sten, saks, papir. Vinderen drikker 5 slurke",
-        minPlayers: 0,
-        maxPlayers: 10,
-    },
-    {
-        text: "Axel drik 1 shot",
-        minPlayers: 0,
-        maxPlayers: 10,
-    },
-    {
-        text: "Axel drik 1 shot",
-        minPlayers: 0,
-        maxPlayers: 10,
-    },
-    {
-        text: "Axel drik 1 shot",
         minPlayers: 0,
         maxPlayers: 10,
     },
@@ -40,8 +24,9 @@ export const questions = [
         minPlayers: 0,
         maxPlayers: 10,
     },
-    
-    
-
-
+    {
+        text: "",
+        minPlayers: 0,
+        maxPlayers: 10,
+    },
 ]
